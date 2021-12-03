@@ -5,8 +5,8 @@ module.exports = {
   plugins: ['truffle-plugin-verify'],
   api_keys: {
     // etherscan: process.env.ETHERSCAN_API_KEY,
-   // polygonscan: 'Y46DT32CWSCS6MES6FSES55NEDBX4BMSGB',
-    bscscan: 'I32W81V3WK8Q1Y88A5RNTYF2VSGP4PGSGS'
+   // polygonscan: '',
+    bscscan: process.env.BSCSCAN_API_KEY
   },
   networks: {
     development: {
